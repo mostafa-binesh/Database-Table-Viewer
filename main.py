@@ -74,7 +74,6 @@ class MainWindow(QMainWindow):
         dbHandler.connect()
         try:
             df = dbHandler.readTable(tableName)
-            print("here df", df)
             if df.empty:
                 QMessageBox.warning(self, "DataFrame Warning", "The DataFrame is empty.")
             else:
