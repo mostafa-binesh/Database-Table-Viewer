@@ -8,8 +8,8 @@ This is a simple PySide6 application to show the data from a MSAccess database. 
 # Installation
 Clone the repo:
 ```
-git clone https://github.com/mostafa-binesh/Datall-Interview-Question
-cd Datall-Interview-Question
+git clone https://github.com/mostafa-binesh/Database-Table-Viewer
+cd Database-Table-Viewer
 ```
 Create and activate venv:
 ```
